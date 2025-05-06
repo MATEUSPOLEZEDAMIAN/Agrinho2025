@@ -1,0 +1,70 @@
+/* style.css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos específicos para as fontes dos títulos */
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-roboto-slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.cabecalho h3 {
+    color: #ffc107; /* Bootstrap warning color */
+}
+
+.img-agro {
+    max-width: 100%;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Adicionada uma leve sombra */
+}
+
+.img-card {
+    max-height: 180px;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out; /* Adicionada transição para efeito hover */
+}
+
+.img-card:hover {
+    transform: scale(1.05); /* Efeito de leve ampliação ao passar o mouse */
+}
+
+.img-slide {
+    max-height: 400px;
+    object-fit: cover;
+    background-color: #f8f9fa;
+}
+
+.footer {
+    font-size: 0.9rem;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 500; /* Deixa os links do menu um pouco mais destacados */
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa !important; /* Mantém o texto branco ao passar o mouse */
+}
+
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(1, 3, 1, 0.226); /* Adicionada uma leve sombra nos cards */
+}
+
+.btn-outline-primary,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-info {
+    font-weight: 500; /* Destaca os botões */
+}
+
+.carousel-caption {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Melhora a legibilidade do texto no carrossel */
+}
