@@ -1,0 +1,92 @@
+/* Estilos para a seção de Energia Rural */
+
+/* Estilos gerais para a página de energia */
+body.energia-page {
+    background-color: #fffde7; /* Um tom de amarelo claro para remeter à energia/sol */
+    color: #f57f17; /* Um laranja mais escuro para contraste */
+}
+
+.energia-page .bg-light {
+    background-color: #fff9c4 !important; /* Um amarelo ainda mais claro para seções de fundo claro */
+}
+
+.energia-page .navbar-warning {
+    background-color: #f9a825 !important; /* Um tom mais forte de laranja para a navbar */
+}
+
+.energia-page .btn-outline-warning {
+    border-color: #f9a825;
+    color: #f9a825;
+}
+
+.energia-page .btn-outline-warning:hover {
+    background-color: #f9a825;
+    color: #fff;
+}
+
+/* Estilos específicos para a seção de conteúdo principal */
+.energia-page .main-content {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Fundo branco para o conteúdo principal */
+}
+
+.energia-page .section-title {
+    color: #f9a825;
+    border-bottom: 3px solid #f9a825;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.energia-page .lead {
+    color: #ef6c00; /* Um tom mais escuro de laranja para o texto de destaque */
+}
+
+.energia-page .bolt-icon {
+    font-size: 2rem;
+    color: #ffd740; /* Um amarelo mais vibrante para ícones relacionados à energia */
+    margin-right: 0.5rem;
+}
+
+.energia-page .feature-card {
+    border: 1px solid #ffe082;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: #fff8e1; /* Um amarelo bem claro para os cards de features */
+}
+
+.energia-page .feature-card h4 {
+    color: #f9a825;
+    margin-bottom: 0.75rem;
+}
+
+.energia-page .feature-card p {
+    color: #f57f17;
+}
+
+.energia-page .image-container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.energia-page .energy-image {
+    max-width: 100%;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para o rodapé (se precisar de algo específico) */
+.energia-page .footer {
+    background-color: #f57f17;
+    color: #fff;
+}
+
+.energia-page .footer a {
+    color: #ffe082;
+}
+
+.energia-page .footer a:hover {
+    color: #fff9c4;
+}

@@ -1,0 +1,92 @@
+/* Estilos para a seção de Acessibilidade à Água */
+
+/* Estilos gerais para a página de água */
+body.agua-page {
+    background-color: #e0f7fa; /* Um tom de azul claro para remeter à água */
+    color: #004d40; /* Um verde escuro para contraste */
+}
+
+.agua-page .bg-light {
+    background-color: #b2ebf2 !important; /* Um azul mais claro para seções de fundo claro */
+}
+
+.agua-page .navbar-success {
+    background-color: #00897b !important; /* Um tom mais forte de verde para a navbar */
+}
+
+.agua-page .btn-outline-success {
+    border-color: #00897b;
+    color: #00897b;
+}
+
+.agua-page .btn-outline-success:hover {
+    background-color: #00897b;
+    color: #fff;
+}
+
+/* Estilos específicos para a seção de conteúdo principal */
+.agua-page .main-content {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Fundo branco para o conteúdo principal */
+}
+
+.agua-page .section-title {
+    color: #00897b;
+    border-bottom: 3px solid #00897b;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.agua-page .lead {
+    color: #00695c; /* Um tom mais escuro de verde para o texto de destaque */
+}
+
+.agua-page .water-drop-icon {
+    font-size: 2rem;
+    color: #00acc1; /* Um azul mais vibrante para ícones relacionados à água */
+    margin-right: 0.5rem;
+}
+
+.agua-page .feature-card {
+    border: 1px solid #80cbc4;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: #e0f2f1; /* Um verde bem claro para os cards de features */
+}
+
+.agua-page .feature-card h4 {
+    color: #00897b;
+    margin-bottom: 0.75rem;
+}
+
+.agua-page .feature-card p {
+    color: #004d40;
+}
+
+.agua-page .image-container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.agua-page .water-image {
+    max-width: 100%;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para o rodapé (se precisar de algo específico) */
+.agua-page .footer {
+    background-color: #004d40;
+    color: #fff;
+}
+
+.agua-page .footer a {
+    color: #80cbc4;
+}
+
+.agua-page .footer a:hover {
+    color: #b2ebf2;
+}

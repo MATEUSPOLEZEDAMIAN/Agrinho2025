@@ -1,0 +1,58 @@
+/* Estilos para a seção de Produção, Industrialização e Inovação */
+
+/* Estilos gerais para a página de produção */
+body.producao-page {
+    background-color: #f1f8e9; /* Um tom de verde bem claro para remeter ao crescimento */
+    color: #388e3c; /* Um verde mais escuro para contraste */
+}
+
+.producao-page .bg-light {
+    background-color: #dcedc8 !important; /* Um verde ainda mais claro para seções de fundo claro */
+}
+
+.producao-page .navbar-info {
+    background-color: #4caf50 !important; /* Um tom mais forte de verde para a navbar */
+}
+
+.producao-page .btn-outline-info {
+    border-color: #4caf50;
+    color: #4caf50;
+}
+
+.producao-page .btn-outline-info:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+/* Estilos específicos para a seção de conteúdo principal */
+.producao-page .main-content {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Fundo branco para o conteúdo principal */
+}
+
+.producao-page .section-title {
+    color: #4caf50;
+    border-bottom: 3px solid #4caf50;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.producao-page .lead {
+    color: #2e7d32; /* Um tom mais escuro de verde para o texto de destaque */
+}
+
+.producao-page .leaf-icon {
+    font-size: 2rem;
+    color: #8bc34a; /* Um verde mais vibrante para ícones relacionados à produção */
+    margin-right: 0.5rem;
+}
+
+.producao-page .feature-card {
+    border: 1px solid #a5d6a7;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: #e8f5e9; /* Um verde bem claro para os cards de features */
+}
