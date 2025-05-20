@@ -1,0 +1,149 @@
+/* Estilos para a seção de Contato */
+
+/* Estilos gerais para a página de contato */
+body.contato-page {
+    background-color: #fce4ec; /* Um tom de rosa bem claro para remeter à proximidade/calor */
+    color: #c62828; /* Um vermelho escuro para contraste */
+    line-height: 1.6;
+}
+
+/* Ajustes para elementos Bootstrap dentro da página de contato */
+.contato-page .bg-light {
+    background-color: #f8bbd0 !important; /* Um rosa ainda mais claro para seções de fundo claro */
+}
+
+.contato-page .navbar-danger { /* Usando navbar-danger para a cor vermelha padrão do Bootstrap */
+    background-color: #d32f2f !important; /* Um tom mais forte de vermelho para a navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contato-page .navbar-nav .nav-link:hover {
+    color: #ffebee !important; /* Cor mais clara no hover para os links da navbar */
+}
+
+.contato-page .btn-outline-danger {
+    border-color: #d32f2f;
+    color: #d32f2f;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.contato-page .btn-outline-danger:hover {
+    background-color: #d32f2f;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos específicos para a seção de conteúdo principal */
+.contato-page .main-content {
+    padding: 2.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+    background-color: #fff; /* Fundo branco para o conteúdo principal */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contato-page .section-title {
+    color: #d32f2f; /* Cor do título da seção */
+    border-bottom: 4px solid #d32f2f; /* Linha mais grossa para o título da seção */
+    padding-bottom: 0.75rem;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contato-page .lead {
+    color: #b71c1c; /* Um tom mais escuro de vermelho para o texto de destaque */
+    font-size: 1.15rem;
+    margin-bottom: 1.5rem;
+}
+
+.contato-page .contact-icon { /* Ícone principal da seção */
+    font-size: 2.5rem;
+    color: #ef5350; /* Um vermelho mais vibrante para o ícone principal */
+    margin-right: 0.75rem;
+    vertical-align: middle;
+}
+
+.contato-page .contact-info li {
+    margin-bottom: 0.75rem; /* Espaçamento entre os itens da lista de contato */
+    color: #c62828;
+}
+
+.contato-page .contact-icon-sm { /* Ícones menores dentro da lista de contato */
+    font-size: 1.2rem;
+    color: #ef5350;
+    margin-right: 0.5rem;
+}
+
+.contato-page .social-media .social-icon {
+    font-size: 2rem;
+    color: #d32f2f; /* Cor dos ícones sociais */
+    transition: color 0.3s ease-in-out;
+}
+
+.contato-page .social-media .social-icon:hover {
+    color: #ef5350; /* Cor no hover para os ícones sociais */
+}
+
+.contato-page .contact-form .form-label {
+    font-weight: 600; /* Deixar os labels do formulário mais fortes */
+    color: #c62828;
+}
+
+.contato-page .contact-form .form-control {
+    border: 1px solid #ffcdd2; /* Borda mais suave para os inputs */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05); /* Sombra interna para os inputs */
+}
+
+.contato-page .contact-form .form-control:focus {
+    border-color: #ef5350; /* Borda vermelha no foco */
+    box-shadow: 0 0 0 0.25rem rgba(239, 83, 80, 0.25); /* Sombra de foco com tom vermelho */
+}
+
+.contato-page .image-container { /* Mantido para consistência, embora o mapa seja um iframe */
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contato-page .map-container {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* Proporção de 16:9 para o iframe responsivo */
+    position: relative;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.contato-page .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; /* Remove a borda padrão do iframe */
+}
+
+/* Estilos para o rodapé específico da página de contato */
+.contato-page .footer {
+    background-color: #b71c1c; /* Um vermelho mais escuro e sólido para o rodapé */
+    color: #fce4ec; /* Cor do texto do rodapé */
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contato-page .footer a {
+    color: #ffcdd2; /* Cor do link no rodapé */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.contato-page .footer a:hover {
+    color: #fff; /* Cor mais clara no hover para o link do rodapé */
+    text-decoration: underline;
+}

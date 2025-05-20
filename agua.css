@@ -1,26 +1,26 @@
-/* Estilos para a seção de Acessibilidade à Água */
+/* Estilos para a seção de Acessibilidade a Água */
 
 /* Estilos gerais para a página de água */
 body.agua-page {
-    background-color: #e0f7fa; /* Um tom de azul claro para remeter à água */
-    color: #004d40; /* Um verde escuro para contraste */
+    background-color: #e3f2fd; /* Um tom de azul claro para remeter à água/céu */
+    color: #1976d2; /* Um azul mais escuro para contraste */
 }
 
 .agua-page .bg-light {
-    background-color: #b2ebf2 !important; /* Um azul mais claro para seções de fundo claro */
+    background-color: #bbdefb !important; /* Um azul ainda mais claro para seções de fundo claro */
 }
 
-.agua-page .navbar-success {
-    background-color: #00897b !important; /* Um tom mais forte de verde para a navbar */
+.agua-page .navbar-info { /* Usando navbar-info para a cor azul padrão do Bootstrap */
+    background-color: #2196f3 !important; /* Um tom mais forte de azul para a navbar */
 }
 
-.agua-page .btn-outline-success {
-    border-color: #00897b;
-    color: #00897b;
+.agua-page .btn-outline-info {
+    border-color: #2196f3;
+    color: #2196f3;
 }
 
-.agua-page .btn-outline-success:hover {
-    background-color: #00897b;
+.agua-page .btn-outline-info:hover {
+    background-color: #2196f3;
     color: #fff;
 }
 
@@ -33,37 +33,37 @@ body.agua-page {
 }
 
 .agua-page .section-title {
-    color: #00897b;
-    border-bottom: 3px solid #00897b;
+    color: #2196f3;
+    border-bottom: 3px solid #2196f3;
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
 }
 
 .agua-page .lead {
-    color: #00695c; /* Um tom mais escuro de verde para o texto de destaque */
+    color: #0d47a1; /* Um tom mais escuro de azul para o texto de destaque */
 }
 
-.agua-page .water-drop-icon {
+.agua-page .drop-icon { /* Alterado de bolt-icon para drop-icon para ser temático */
     font-size: 2rem;
-    color: #00acc1; /* Um azul mais vibrante para ícones relacionados à água */
+    color: #4fc3f7; /* Um azul mais vibrante para ícones relacionados à água */
     margin-right: 0.5rem;
 }
 
 .agua-page .feature-card {
-    border: 1px solid #80cbc4;
+    border: 1px solid #90caf9;
     border-radius: 0.5rem;
     padding: 1.5rem;
     margin-bottom: 1rem;
-    background-color: #e0f2f1; /* Um verde bem claro para os cards de features */
+    background-color: #e1f5fe; /* Um azul bem claro para os cards de features */
 }
 
 .agua-page .feature-card h4 {
-    color: #00897b;
+    color: #2196f3;
     margin-bottom: 0.75rem;
 }
 
 .agua-page .feature-card p {
-    color: #004d40;
+    color: #1976d2;
 }
 
 .agua-page .image-container {
@@ -71,22 +71,8 @@ body.agua-page {
     margin-top: 1.5rem;
 }
 
-.agua-page .water-image {
+.agua-page .water-image { /* Alterado de energy-image para water-image para ser temático */
     max-width: 100%;
     border-radius: 0.25rem;
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
-}
-
-/* Estilos para o rodapé (se precisar de algo específico) */
-.agua-page .footer {
-    background-color: #004d40;
-    color: #fff;
-}
-
-.agua-page .footer a {
-    color: #80cbc4;
-}
-
-.agua-page .footer a:hover {
-    color: #b2ebf2;
 }
