@@ -10,8 +10,13 @@ body.producao-page {
     background-color: #dcedc8 !important; /* Um verde ainda mais claro para seções de fundo claro */
 }
 
-.producao-page .navbar-info {
+.producao-page .navbar-info { /* Mantido navbar-info para a cor verde padrão do Bootstrap, mas ajustado abaixo com bg-success */
     background-color: #4caf50 !important; /* Um tom mais forte de verde para a navbar */
+}
+
+/* Ajuste para a navbar bg-success usada no HTML */
+.producao-page .bg-success {
+    background-color: #4caf50 !important; /* Verde padrão Bootstrap para a navbar */
 }
 
 .producao-page .btn-outline-info {
@@ -43,7 +48,7 @@ body.producao-page {
     color: #2e7d32; /* Um tom mais escuro de verde para o texto de destaque */
 }
 
-.producao-page .leaf-icon {
+.producao-page .plant-icon { /* Alterado de leaf-icon para plant-icon para ser temático */
     font-size: 2rem;
     color: #8bc34a; /* Um verde mais vibrante para ícones relacionados à produção */
     margin-right: 0.5rem;
@@ -55,4 +60,43 @@ body.producao-page {
     padding: 1.5rem;
     margin-bottom: 1rem;
     background-color: #e8f5e9; /* Um verde bem claro para os cards de features */
+}
+
+.producao-page .feature-card h4 {
+    color: #4caf50;
+    margin-bottom: 0.75rem;
+}
+
+.producao-page .feature-card p {
+    color: #388e3c;
+}
+
+.producao-page .image-container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.producao-page .production-image { /* Alterado de energy-image para production-image para ser temático */
+    max-width: 100%;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+}
+
+/* NOVO: Estilos para o Carrosel na página de Produção */
+.producao-page .carousel-img-producao {
+    height: 400px; /* Altura fixa para as imagens do carrosel */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
+    filter: brightness(0.8); /* Escurece um pouco a imagem para o texto da legenda se destacar */
+}
+
+.producao-page .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6) !important; /* Fundo mais escuro para a legenda */
+    padding: 15px;
+    border-radius: 0 0 0.25rem 0.25rem; /* Arredonda apenas as bordas inferiores */
+    bottom: 0; /* Alinha a legenda na parte inferior */
+    width: 100%; /* Ocupa toda a largura do carrosel */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+    margin-left: 0;
+    margin-right: 0;
 }

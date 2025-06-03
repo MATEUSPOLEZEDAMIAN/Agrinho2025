@@ -90,3 +90,22 @@ body.energia-page {
 .energia-page .footer a:hover {
     color: #fff9c4;
 }
+
+/* NOVO: Estilos para o Carrosel na página de Energia */
+.energia-page .carousel-img-energia {
+    height: 400px; /* Altura fixa para as imagens do carrosel */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
+    filter: brightness(0.8); /* Escurece um pouco a imagem para o texto da legenda se destacar */
+}
+
+.energia-page .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6) !important; /* Fundo mais escuro para a legenda */
+    padding: 15px;
+    border-radius: 0 0 0.25rem 0.25rem; /* Arredonda apenas as bordas inferiores */
+    bottom: 0; /* Alinha a legenda na parte inferior */
+    width: 100%; /* Ocupa toda a largura do carrosel */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+    margin-left: 0;
+    margin-right: 0;
+}

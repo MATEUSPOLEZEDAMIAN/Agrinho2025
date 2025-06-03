@@ -1,55 +1,42 @@
-/* Estilos para a seção de Inscrições */
-
-/* Cores Laranja */
-/* Laranja Principal (Botões, Títulos) */
-:root {
-    --orange-primary: #fd7e14; /* Bootstrap 'warning' */
-    --orange-dark: #e65100; /* Mais escuro para texto/bordas */
-    --orange-light: #ffb74d; /* Mais claro para ícones/destaque */
-    --orange-background-light: #fff3e0; /* Um laranja pastel bem claro */
-    --orange-background-lighter: #ffe0b2; /* Um pouco mais saturado para seções */
-}
+/* Estilos para a página de Inscrições */
 
 /* Estilos gerais para a página de inscrições */
 body.inscricoes-page {
-    background-color: var(--orange-background-light);
-    color: var(--orange-dark);
-    line-height: 1.6;
+    background-color: #fff8e1; /* Um amarelo/laranja bem claro */
+    color: #e65100; /* Um laranja escuro para o texto principal */
 }
 
-/* Ajustes para elementos Bootstrap dentro da página de inscrições */
 .inscricoes-page .bg-light {
-    background-color: var(--orange-background-lighter) !important;
+    background-color: #ffecb3 !important; /* Um amarelo/laranja mais claro para seções de fundo claro */
 }
 
-.inscricoes-page .navbar-orange { /* Classe customizada para a navbar laranja */
-    background-color: var(--orange-primary) !important;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+/* Estilo para a navbar usando um tom de laranja */
+.inscricoes-page .navbar-orange {
+    background-color: #ef6c00 !important; /* Laranja escuro para a navbar */
 }
 
-.inscricoes-page .navbar-nav .nav-link:hover {
-    color: #fff !important; /* Branco no hover para os links da navbar */
+.inscricoes-page .navbar-dark .navbar-nav .nav-link.active {
+    color: #fff !important; /* Link ativo branco na navbar escura */
 }
 
-.inscricoes-page .btn-warning,
-.inscricoes-page .btn-orange { /* Usando btn-orange como classe principal para consistência */
-    background-color: var(--orange-primary);
-    border-color: var(--orange-primary);
+.inscricoes-page .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75) !important; /* Links normais mais claros */
+}
+
+.inscricoes-page .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff !important; /* Links ao passar o mouse brancos */
+}
+
+
+/* Estilos para o botão de outline (usado no CTA final) */
+.inscricoes-page .btn-outline-orange {
+    border-color: #f57c00; /* Laranja um pouco mais claro para a borda */
+    color: #f57c00;
+}
+
+.inscricoes-page .btn-outline-orange:hover {
+    background-color: #f57c00;
     color: #fff;
-    font-weight: 600;
-    transition: all 0.3s ease-in-out;
-}
-
-.inscricoes-page .btn-warning:hover,
-.inscricoes-page .btn-orange:hover {
-    background-color: var(--orange-dark);
-    border-color: var(--orange-dark);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.inscricoes-page .text-orange-dark {
-    color: var(--orange-dark) !important;
 }
 
 /* Estilos específicos para a seção de conteúdo principal */
@@ -58,98 +45,101 @@ body.inscricoes-page {
     border-radius: 0.75rem;
     box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
     background-color: #fff; /* Fundo branco para o conteúdo principal */
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .inscricoes-page .section-title {
-    color: var(--orange-dark);
-    border-bottom: 4px solid var(--orange-light);
+    color: #e65100; /* Laranja escuro para o título da seção */
+    border-bottom: 3px solid #f57c00; /* Borda laranja para o título */
     padding-bottom: 0.75rem;
     margin-bottom: 2rem;
-    font-size: 2.2rem;
-    font-weight: 700;
-    text-align: center;
 }
 
 .inscricoes-page .lead {
-    color: #8d6e63; /* Um tom neutro para o lead, pode ajustar se preferir laranja mais forte */
-    font-size: 1.15rem;
-    margin-bottom: 1.5rem;
+    color: #bf360c; /* Laranja mais avermelhado para o texto de destaque */
+    font-weight: 500;
 }
 
-.inscricoes-page .lead-sm {
-    font-size: 1rem;
-    color: #795548; /* Um tom ainda mais neutro para texto menor */
-}
-
-.inscricoes-page .register-icon { /* Ícone principal da seção */
+.inscricoes-page .register-icon {
     font-size: 2.5rem;
-    color: var(--orange-primary);
+    color: #ffb300; /* Laranja mais vibrante/amarelo para ícones */
     margin-right: 0.75rem;
-    vertical-align: middle;
 }
 
-.inscricoes-page .registration-options li {
-    margin-bottom: 0.75rem;
-    color: var(--orange-dark);
+/* Estilos para o card do formulário */
+.inscricoes-page .registration-form-card {
+    border: 1px solid #ffcc80; /* Borda laranja clara */
+    background-color: #fffaf0; /* Fundo bem clarinho para o card */
 }
 
-.inscricoes-page .register-icon-sm { /* Ícones menores dentro da lista */
-    font-size: 1.2rem;
-    color: var(--orange-primary);
-    margin-right: 0.5rem;
+.inscricoes-page .form-label {
+    font-weight: bold;
+    color: #e65100; /* Laranja escuro para os labels */
 }
 
-.inscricoes-page .bg-light-orange { /* Nova classe para a seção do formulário */
-    background-color: var(--orange-background-lighter) !important;
-    border: 1px solid var(--orange-light);
+.inscricoes-page .form-control,
+.inscricoes-page .form-select {
+    border-color: #ffb300; /* Borda dos inputs laranja */
 }
 
-.inscricoes-page .registration-form .form-label {
-    font-weight: 600;
-    color: var(--orange-dark);
+.inscricoes-page .form-control:focus,
+.inscricoes-page .form-select:focus {
+    border-color: #fb8c00; /* Borda ao focar mais vibrante */
+    box-shadow: 0 0 0 0.25rem rgba(255, 179, 0, 0.25); /* Sombra do foco laranja */
 }
 
-.inscricoes-page .registration-form .form-control,
-.inscricoes-page .registration-form .form-select {
-    border: 1px solid var(--orange-light);
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+.inscricoes-page .form-check-label a.text-orange-link {
+    color: #ef6c00; /* Laranja para o link de termos */
+    text-decoration: none;
 }
 
-.inscricoes-page .registration-form .form-control:focus,
-.inscricoes-page .registration-form .form-select:focus {
-    border-color: var(--orange-primary);
-    box-shadow: 0 0 0 0.25rem rgba(255, 167, 38, 0.25); /* Sombra de foco com tom laranja */
-}
-
-.inscricoes-page .form-check-label a {
-    color: var(--orange-dark) !important;
+.inscricoes-page .form-check-label a.text-orange-link:hover {
     text-decoration: underline;
+    color: #f57c00;
 }
 
-.inscricoes-page .image-container {
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+/* Estilo para o botão de submissão */
+.inscricoes-page .register-button {
+    background-color: #f57c00; /* Laranja para o botão */
+    border-color: #f57c00;
+    font-weight: bold;
+    letter-spacing: 0.05em;
 }
 
-/* Estilos para o rodapé específico da página de inscrições */
+.inscricoes-page .register-button:hover {
+    background-color: #ef6c00; /* Laranja mais escuro ao passar o mouse */
+    border-color: #ef6c00;
+}
+
+/* Estilos para a seção de dúvidas/contato no final do main */
+.inscricoes-page .text-dark-orange {
+    color: #e65100 !important; /* Laranja escuro para o texto da seção */
+}
+
+/* NOVO: Estilos para as novas seções de informações */
+.inscricoes-page .text-orange-gradient {
+    background: linear-gradient(to right, #ffb300, #f57c00); /* Gradiente para títulos */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.25rem;
+}
+
+.inscricoes-page .participation-benefit-item .benefit-icon-small {
+    font-size: 3rem; /* Ícones maiores para os benefícios */
+    color: #fb8c00; /* Laranja vibrante */
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para o rodapé */
 .inscricoes-page .footer {
-    background-color: var(--orange-dark); /* Um laranja escuro e sólido para o rodapé */
-    color: var(--orange-background-light); /* Cor do texto do rodapé */
-    padding: 1.5rem 0;
-    font-size: 0.9rem;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #e65100; /* Laranja escuro para o rodapé */
+    color: #fff;
 }
 
 .inscricoes-page .footer a {
-    color: var(--orange-light); /* Cor do link no rodapé */
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
+    color: #ffcc80; /* Laranja claro para os links do rodapé */
 }
 
 .inscricoes-page .footer a:hover {
-    color: #fff; /* Cor mais clara no hover para o link do rodapé */
-    text-decoration: underline;
+    color: #fff;
 }
+.bg-orange{background-color: #ef6c00;}
